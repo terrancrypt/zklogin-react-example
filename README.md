@@ -29,7 +29,29 @@
 - **Authentication**: Google OAuth 2.0, JWT
 - **Build Tool**: Vite với SWC
 
-## 📦 Cài Đặt
+## 📚 Hướng Dẫn Chi Tiết
+
+Dự án này cung cấp 2 hướng dẫn chi tiết để bạn có thể học và thực hành:
+
+### 📖 [HUONG_DAN_TAO_DU_AN.md](./HUONG_DAN_TAO_DU_AN.md)
+**Hướng dẫn tạo dự án từ đầu (996 dòng)**
+- ✅ Hướng dẫn step-by-step tạo dự án hoàn chỉnh từ con số 0
+- ✅ Giải thích chi tiết từng bước setup và cấu hình
+- ✅ Code examples đầy đủ cho tất cả components và hooks
+- ✅ Thiết lập Google OAuth và Sui network
+- ✅ Troubleshooting và best practices
+
+### 🔧 [PHAN_TACH_CODE.md](./PHAN_TACH_CODE.md) 
+**Hướng dẫn refactor và tổ chức code (423 dòng)**
+- ✅ Cách phân tách code thành modules nhỏ hơn
+- ✅ Tổ chức thư mục theo best practices
+- ✅ Tạo custom hooks và utility functions
+- ✅ Separation of concerns và clean architecture
+- ✅ Cải thiện maintainability và scalability
+
+> **💡 Khuyến nghị**: Nếu bạn mới bắt đầu, hãy đọc `HUONG_DAN_TAO_DU_AN.md` trước. Nếu đã có dự án và muốn cải thiện cấu trúc code, hãy đọc `PHAN_TACH_CODE.md`.
+
+## 📦 Cài Đặt Nhanh
 
 ### Yêu Cầu Hệ Thống
 - Node.js >= 18
@@ -75,6 +97,8 @@ pnpm dev
 ```
 
 Mở trình duyệt và truy cập: `http://localhost:5173`
+
+> **📋 Lưu ý**: Để setup chi tiết từng bước, vui lòng tham khảo file [HUONG_DAN_TAO_DU_AN.md](./HUONG_DAN_TAO_DU_AN.md)
 
 ## 🔧 Thiết Lập Google OAuth
 
@@ -232,6 +256,12 @@ vercel --prod
 
 ## 📖 Tài Liệu Tham Khảo
 
+### 📚 Hướng Dẫn Dự Án
+- [HUONG_DAN_TAO_DU_AN.md](./HUONG_DAN_TAO_DU_AN.md) - Hướng dẫn tạo dự án từ đầu
+- [PHAN_TACH_CODE.md](./PHAN_TACH_CODE.md) - Hướng dẫn refactor và tổ chức code
+- [SETUP_NHANH.md](./SETUP_NHANH.md) - Hướng dẫn setup nhanh (nếu có)
+
+### 🌐 Tài Liệu Bên Ngoài
 - [Sui zkLogin Documentation](https://docs.sui.io/concepts/cryptography/zklogin)
 - [Sui TypeScript SDK](https://sdk.mystenlabs.com/typescript)
 - [Google OAuth 2.0](https://developers.google.com/identity/protocols/oauth2)
