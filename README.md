@@ -290,12 +290,6 @@ A: Hiện tại demo này chạy trên devnet. Để dùng mainnet cần thay đ
 **Q: Tại sao transaction failed?**
 A: Thường do không đủ gas fee hoặc địa chỉ nhận không hợp lệ. Kiểm tra balance và địa chỉ.
 
-## 📞 Hỗ Trợ
-
-- **Email**: support@yourproject.com
-- **Discord**: [Join our Discord](https://discord.gg/yourserver)
-- **GitHub Issues**: [Report Issues](https://github.com/yourrepo/issues)
-
 ---
 
 **Chúc bạn học tập vui vẻ! 🎉**
